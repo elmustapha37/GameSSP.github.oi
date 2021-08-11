@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cuntent">
+        <div class="outPage">
+            <div class="title">
+                <h1>Stone Paper Scissors Game</h1>
+            </div>
+            <div class="countunt">
+                <div class="ply">
+                    <p>player</p>
+                    <span id="player">0</span>
+                </div>
+                <div class="conter">
+                    <p>Vs</p>
+                </div>
+                <div class="ply ply1">
+                    <p>computer</p>
+                    <span id="computer">0</span>
+                </div>
+            </div>
+            <div class="conter">
+                <h3 id="result">Computer Win</h3>
+            </div>
+            <div class="game">
+                <div class="imageOne">
+                    <img src="image/stone.png" value="0" id="imgOne">
+                </div>
+                <div class="imageTwo">
+                    <img src="image/stone.png" value="1" id="imgTwo">
+                </div>
+            </div>
+            <div class="chose">
+                <button class="paper" onmousedown="cp.play()">paper</button>
+                <button class="scissors" onmousedown="cp.play()">scissors</button>
+                <button class="stone" onmousedown="cp.play()">stone</button>
+            </div>
+        </div>
+        <div class="startPage">
+            <h1 id="sPage">Let's Play with computer</h1>
+            <button id="starGame" onmousedown="cp1.play()">Sart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

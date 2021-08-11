@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(102, 51, 150);
+    user-select: none;
+}
+.cuntent{
+    width: 100%;
+}
+.outPage{
+    position: relative;
+    opacity:0;
+}
+.title{
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+    color: chartreuse;
+}
+.countunt{
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    font-family: cursive;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-top: 30px;
+}
+.ply span{
+    display: block;
+    text-align: center;
+    font-size: 23px;
+}
+.game{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+.game img{
+    display: block;
+}
+.conter p{
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    color: yellow;
+    font-weight: bold;
+}
+#result{
+    text-align: center;
+    color: cyan;
+    font-size: 20px;
+    font-family: Verdana,Tahoma, sans-serif;
+    padding-top: 15px;
+}
+.game .imageOne img{
+    transform: rotateY(-180deg);
+}
+.chose{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;  
+    padding-right: 35px;  
+}
+
+.chose button{
+    padding: 10px;
+    margin-left: 45px;
+    background-color: rgb(248, 69, 93);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.startPage{
+    display: block;
+    margin: auto;
+    opacity: 1;
+}
+.startPage h1{
+    position: absolute;
+    text-align: center;
+    color: turquoise;
+    margin: auto;
+    top: 150px;
+    left: 38%;
+}
+.startPage button{
+    position: absolute;
+    top: 240px;
+    left: 44%;
+    display: block;
+    padding: 10px;
+    margin-left: 45px;
+    background-color: rgb(248, 69, 93);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 20px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color: rgb(255, 0, 34);
+    color: white;
+}
